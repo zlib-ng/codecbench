@@ -64,7 +64,7 @@ DATA_TYPE_ORDER = ["text", "short_match", "dna", "random", "literals", "mixed",
                    "realistic_rgb", "phased", "runs", "striped_rgb", "far_match",
                    "records"]
 
-REPO_URL = "https://github.com/nmoinvaz/codecbench"
+REPO_URL = "https://github.com/zlib-ng/codecbench"
 
 NAME_RE = re.compile(
     r"^codec_(?P<kind>deflate|inflate)/(?P<label>.+?)"
