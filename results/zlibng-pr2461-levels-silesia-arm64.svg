@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="812" viewBox="0 0 1080 812" font-family="system-ui, sans-serif">
+<style>@media (prefers-color-scheme: dark){[fill="#fcfcfb"]{fill:#201f1d}[stroke="#fcfcfb"]{stroke:#201f1d}[fill="#0b0b0b"]{fill:#e8e6e3}[stroke="#0b0b0b"]{stroke:#e8e6e3}[fill="#52514e"]{fill:#a8a49d}[stroke="#52514e"]{stroke:#a8a49d}[fill="#e7e6e2"]{fill:#343230}[stroke="#e7e6e2"]{stroke:#343230}[fill="#c98500"]{fill:#d69a2d}[stroke="#c98500"]{stroke:#d69a2d}[fill="#eb6834"]{fill:#dd5c26}[stroke="#eb6834"]{stroke:#dd5c26}[fill="#eda100"]{fill:#c08800}[stroke="#eda100"]{stroke:#c08800}[fill="#e87ba4"]{fill:#d1678f}[stroke="#e87ba4"]{stroke:#d1678f}[fill="#4a3aa7"]{fill:#7263cf}[stroke="#4a3aa7"]{stroke:#7263cf}[fill="#a6339a"]{fill:#c257b5}[stroke="#a6339a"]{stroke:#c257b5}[fill="#7a7668"]{fill:#948e82}[stroke="#7a7668"]{stroke:#948e82}}</style>
+<rect width="1080" height="812" fill="#fcfcfb"/>
+<text x="16.0" y="28.0" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="bold">zlib-ng PR #2461 deflate levels, head vs base</text>
+<text x="16.0" y="48.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">PR base 88601f0b  ·  PR head bc8ddc99</text>
+<text x="1064.0" y="52.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">PR head</text>
+<circle cx="1007.0" cy="48.0" r="5" fill="#eb6834"/>
+<text x="987.0" y="52.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">PR base</text>
+<circle cx="930.0" cy="48.0" r="4.5" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<line x1="78.0" y1="361.9" x2="1040.0" y2="361.9" stroke="#e7e6e2" stroke-width="1"/>
+<text x="1034.0" y="357.9" font-size="10" fill="#52514e" text-anchor="end" font-weight="normal">50 MB/s</text>
+<line x1="78.0" y1="263.1" x2="1040.0" y2="263.1" stroke="#e7e6e2" stroke-width="1"/>
+<text x="1034.0" y="259.1" font-size="10" fill="#52514e" text-anchor="end" font-weight="normal">100 MB/s</text>
+<line x1="78.0" y1="164.3" x2="1040.0" y2="164.3" stroke="#e7e6e2" stroke-width="1"/>
+<text x="1034.0" y="160.3" font-size="10" fill="#52514e" text-anchor="end" font-weight="normal">200 MB/s</text>
+<line x1="95.4" y1="100.0" x2="95.4" y2="440.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="95.4" y="458.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">2.2</text>
+<line x1="284.2" y1="100.0" x2="284.2" y2="440.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="284.2" y="458.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">2.4</text>
+<line x1="472.9" y1="100.0" x2="472.9" y2="440.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="472.9" y="458.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">2.6</text>
+<line x1="661.7" y1="100.0" x2="661.7" y2="440.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="661.7" y="458.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">2.8</text>
+<line x1="850.4" y1="100.0" x2="850.4" y2="440.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="850.4" y="458.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">3</text>
+<line x1="1039.2" y1="100.0" x2="1039.2" y2="440.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="1039.2" y="458.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">3.2</text>
+<line x1="78.0" y1="440.0" x2="1040.0" y2="440.0" stroke="#52514e" stroke-width="1"/>
+<text x="559.0" y="480.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="normal">compression ratio</text>
+<text x="78.0" y="78.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="normal">deflate, tars/silesia.tar</text>
+<g opacity="0.35"><line x1="912.0" y1="182.0" x2="995.0" y2="127.3" stroke="#52514e" stroke-width="2"/><polygon points="1000.0,124.0 994.7,132.3 990.3,125.6" fill="#52514e"/><text x="956.0" y="146.0" font-size="11" fill="#52514e" text-anchor="middle" transform="rotate(-33.4 956.0 153.0)">better</text></g>
+<path d="M144.3,131.8 L670.6,190.6 L798.3,218.8 L857.7,242.3 L902.6,248.1 L916.7,278.7 L941.6,324.0 L947.8,345.2 L973.7,391.5" fill="none" stroke="#2a78d6" stroke-width="7" stroke-opacity="0.28" stroke-linejoin="round"/>
+<path d="M146.7,132.7 L715.5,193.6 L798.2,212.6 L858.8,239.2 L903.2,246.1 L917.2,276.4 L941.6,322.1 L947.8,345.0 L973.7,392.1" fill="none" stroke="#eb6834" stroke-width="2" stroke-opacity="0.9" stroke-linejoin="round"/>
+<g opacity="0.75"><line x1="683.5" y1="191.5" x2="700.5" y2="192.6" stroke="#52514e" stroke-width="1.2" stroke-dasharray="3 3"/><polygon points="705.5,193.0 698.3,195.5 698.7,189.5" fill="#52514e"/></g>
+<g><circle cx="144.3" cy="131.8" r="9" fill="#fcfcfb" stroke="#2a78d6" stroke-width="2"/><title>PR base level:1 - 251 MB/s, ratio 2.252, 94,127,478 bytes, 843.6 ms, cv 0.9%</title></g>
+<g><circle cx="670.6" cy="190.6" r="9" fill="#fcfcfb" stroke="#2a78d6" stroke-width="2"/><title>PR base level:2 - 166 MB/s, ratio 2.809, 75,444,858 bytes, 1,274.2 ms, cv 0.5%</title></g>
+<g><circle cx="798.3" cy="218.8" r="9" fill="#fcfcfb" stroke="#2a78d6" stroke-width="2"/><title>PR base level:3 - 136 MB/s, ratio 2.945, 71,977,318 bytes, 1,553.2 ms, cv 1.6%</title></g>
+<g><circle cx="857.7" cy="242.3" r="9" fill="#fcfcfb" stroke="#2a78d6" stroke-width="2"/><title>PR base level:4 - 116 MB/s, ratio 3.008, 70,470,234 bytes, 1,832.1 ms, cv 0.3%</title></g>
+<g><circle cx="902.6" cy="248.1" r="9" fill="#fcfcfb" stroke="#2a78d6" stroke-width="2"/><title>PR base level:5 - 111 MB/s, ratio 3.055, 69,374,750 bytes, 1,908.2 ms, cv 0.9%</title></g>
+<g><circle cx="916.7" cy="278.7" r="9" fill="#fcfcfb" stroke="#2a78d6" stroke-width="2"/><title>PR base level:6 - 90 MB/s, ratio 3.070, 69,036,879 bytes, 2,365.0 ms, cv 1.2%</title></g>
+<g><circle cx="941.6" cy="324.0" r="9" fill="#fcfcfb" stroke="#2a78d6" stroke-width="2"/><title>PR base level:7 - 65 MB/s, ratio 3.097, 68,447,218 bytes, 3,249.2 ms, cv 0.8%</title></g>
+<g><circle cx="947.8" cy="345.2" r="9" fill="#fcfcfb" stroke="#2a78d6" stroke-width="2"/><title>PR base level:8 - 56 MB/s, ratio 3.103, 68,303,716 bytes, 3,772.6 ms, cv 1.0%</title></g>
+<g><circle cx="973.7" cy="391.5" r="9" fill="#fcfcfb" stroke="#2a78d6" stroke-width="2"/><title>PR base level:9 - 41 MB/s, ratio 3.131, 67,705,272 bytes, 5,220.5 ms, cv 2.1%</title></g>
+<g><circle cx="146.7" cy="132.7" r="5.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/><title>PR head level:1 - 250 MB/s, ratio 2.254, 94,023,540 bytes, 848.8 ms, cv 2.0%</title></g>
+<g><circle cx="715.5" cy="193.6" r="5.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/><title>PR head level:2 - 163 MB/s, ratio 2.857, 74,188,624 bytes, 1,301.9 ms, cv 1.0%</title></g>
+<g><circle cx="798.2" cy="212.6" r="5.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/><title>PR head level:3 - 143 MB/s, ratio 2.945, 71,980,656 bytes, 1,487.0 ms, cv 1.1%</title></g>
+<g><circle cx="858.8" cy="239.2" r="5.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/><title>PR head level:4 - 118 MB/s, ratio 3.009, 70,443,396 bytes, 1,793.0 ms, cv 0.4%</title></g>
+<g><circle cx="903.2" cy="246.1" r="5.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/><title>PR head level:5 - 113 MB/s, ratio 3.056, 69,360,189 bytes, 1,881.0 ms, cv 0.7%</title></g>
+<g><circle cx="917.2" cy="276.4" r="5.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/><title>PR head level:6 - 91 MB/s, ratio 3.071, 69,023,645 bytes, 2,327.2 ms, cv 0.5%</title></g>
+<g><circle cx="941.6" cy="322.1" r="5.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/><title>PR head level:7 - 66 MB/s, ratio 3.097, 68,447,218 bytes, 3,206.8 ms, cv 2.7%</title></g>
+<g><circle cx="947.8" cy="345.0" r="5.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/><title>PR head level:8 - 56 MB/s, ratio 3.103, 68,303,716 bytes, 3,765.4 ms, cv 0.6%</title></g>
+<g><circle cx="973.7" cy="392.1" r="5.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/><title>PR head level:9 - 40 MB/s, ratio 3.131, 67,705,272 bytes, 5,239.4 ms, cv 0.8%</title></g>
+<text x="155.3" y="120.8" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal">L1</text>
+<text x="681.6" y="179.6" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal">L2</text>
+<text x="809.3" y="207.8" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal">L3</text>
+<text x="868.7" y="231.3" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal">L4</text>
+<text x="913.6" y="237.1" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal">L5</text>
+<text x="927.7" y="267.7" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal">L6</text>
+<text x="952.6" y="313.0" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal">L7</text>
+<text x="958.8" y="334.2" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal">L8</text>
+<text x="984.7" y="380.5" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal">L9</text>
+<text x="726.5" y="182.6" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal">L2</text>
+<g style="font-variant-numeric: tabular-nums">
+<text x="78.0" y="546.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">level</text>
+<text x="301.4" y="546.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">PR base</text>
+<circle cx="246.4" cy="542.0" r="4.5" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<text x="468.8" y="546.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">PR head</text>
+<circle cx="413.8" cy="542.0" r="5" fill="#eb6834"/>
+<text x="582.2" y="546.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="normal">Δ</text>
+<text x="366.1" y="524.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="normal">compressed size, bytes</text>
+<line x1="154.0" y1="531.0" x2="590.2" y2="531.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="758.6" y="546.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">PR base</text>
+<circle cx="703.6" cy="542.0" r="4.5" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<text x="899.0" y="546.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">PR head</text>
+<circle cx="844.0" cy="542.0" r="5" fill="#eb6834"/>
+<text x="1012.4" y="546.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="normal">Δ</text>
+<text x="823.3" y="524.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="normal">cpu time, ms</text>
+<line x1="638.2" y1="531.0" x2="1020.4" y2="531.0" stroke="#e7e6e2" stroke-width="1"/>
+<line x1="78.0" y1="554.0" x2="1020.4" y2="554.0" stroke="#52514e" stroke-width="1"/>
+<text x="78.0" y="570.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="normal">1</text>
+<text x="301.4" y="570.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">94,127,478</text>
+<text x="468.8" y="570.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">94,023,540</text>
+<text x="582.2" y="570.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="bold">-0.1%</text>
+<text x="758.6" y="570.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">843.6</text>
+<text x="899.0" y="570.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">848.8</text>
+<text x="1012.4" y="570.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="normal">+0.6%</text>
+<line x1="78.0" y1="576.0" x2="1020.4" y2="576.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="78.0" y="592.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="normal">2</text>
+<text x="301.4" y="592.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">75,444,858</text>
+<text x="468.8" y="592.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">74,188,624</text>
+<text x="582.2" y="592.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="bold">-1.7%</text>
+<text x="758.6" y="592.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">1,274.2</text>
+<text x="899.0" y="592.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">1,301.9</text>
+<text x="1012.4" y="592.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="normal">+2.2%</text>
+<line x1="78.0" y1="598.0" x2="1020.4" y2="598.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="78.0" y="614.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="normal">3</text>
+<text x="301.4" y="614.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">71,977,318</text>
+<text x="468.8" y="614.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">71,980,656</text>
+<text x="582.2" y="614.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="bold">+0.0%</text>
+<text x="758.6" y="614.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">1,553.2</text>
+<text x="899.0" y="614.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">1,487.0</text>
+<text x="1012.4" y="614.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="normal">-4.3%</text>
+<line x1="78.0" y1="620.0" x2="1020.4" y2="620.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="78.0" y="636.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="normal">4</text>
+<text x="301.4" y="636.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">70,470,234</text>
+<text x="468.8" y="636.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">70,443,396</text>
+<text x="582.2" y="636.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="bold">-0.0%</text>
+<text x="758.6" y="636.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">1,832.1</text>
+<text x="899.0" y="636.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">1,793.0</text>
+<text x="1012.4" y="636.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="bold">-2.1%</text>
+<line x1="78.0" y1="642.0" x2="1020.4" y2="642.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="78.0" y="658.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="normal">5</text>
+<text x="301.4" y="658.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">69,374,750</text>
+<text x="468.8" y="658.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">69,360,189</text>
+<text x="582.2" y="658.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="bold">-0.0%</text>
+<text x="758.6" y="658.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">1,908.2</text>
+<text x="899.0" y="658.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">1,881.0</text>
+<text x="1012.4" y="658.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="normal">-1.4%</text>
+<line x1="78.0" y1="664.0" x2="1020.4" y2="664.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="78.0" y="680.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="normal">6</text>
+<text x="301.4" y="680.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">69,036,879</text>
+<text x="468.8" y="680.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">69,023,645</text>
+<text x="582.2" y="680.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="bold">-0.0%</text>
+<text x="758.6" y="680.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">2,365.0</text>
+<text x="899.0" y="680.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">2,327.2</text>
+<text x="1012.4" y="680.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="normal">-1.6%</text>
+<line x1="78.0" y1="686.0" x2="1020.4" y2="686.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="78.0" y="702.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="normal">7</text>
+<text x="301.4" y="702.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">68,447,218</text>
+<text x="468.8" y="702.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">68,447,218</text>
+<text x="582.2" y="702.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="normal">0.0%</text>
+<text x="758.6" y="702.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">3,249.2</text>
+<text x="899.0" y="702.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">3,206.8</text>
+<text x="1012.4" y="702.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="normal">-1.3%</text>
+<line x1="78.0" y1="708.0" x2="1020.4" y2="708.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="78.0" y="724.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="normal">8</text>
+<text x="301.4" y="724.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">68,303,716</text>
+<text x="468.8" y="724.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">68,303,716</text>
+<text x="582.2" y="724.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="normal">0.0%</text>
+<text x="758.6" y="724.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">3,772.6</text>
+<text x="899.0" y="724.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">3,765.4</text>
+<text x="1012.4" y="724.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="normal">-0.2%</text>
+<line x1="78.0" y1="730.0" x2="1020.4" y2="730.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="78.0" y="746.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="normal">9</text>
+<text x="301.4" y="746.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">67,705,272</text>
+<text x="468.8" y="746.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">67,705,272</text>
+<text x="582.2" y="746.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="normal">0.0%</text>
+<text x="758.6" y="746.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">5,220.5</text>
+<text x="899.0" y="746.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="normal">5,239.4</text>
+<text x="1012.4" y="746.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="normal">+0.4%</text>
+</g>
+<text x="78.0" y="774.0" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal">Δ is the change against PR base, bold where the size differs or the time moves by more than 1% and 3 times the repetition cv.</text>
+<text x="16.0" y="800.0" font-size="10" fill="#52514e" text-anchor="start" font-weight="normal">PR base 2.3.1-616-g88601f0b  ·  PR head 2.3.1-630-gbc8ddc99  ·  Apple M5, 32 GB, macOS 27.0, 10 cpus, Nathans-MacBook-Air-M5-3.local, 2026-10-12</text>
+<a href="https://github.com/zlib-ng/codecbench"><text x="1064" y="800" font-size="10" fill="#52514e" text-anchor="end" text-decoration="underline">github.com/zlib-ng/codecbench</text></a>
+</svg>
