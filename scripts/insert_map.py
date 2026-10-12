@@ -36,7 +36,7 @@ import sys
 import zlib
 from pathlib import Path
 
-from graph_runs import GRID, INK, INK_SOFT, Svg
+from graph_runs import GRID, INK, INK_SOFT, REPO_URL, Svg
 
 UPSTREAM = "https://github.com/zlib-ng/zlib-ng.git"
 SCRIPTS = Path(__file__).resolve().parent
@@ -419,7 +419,7 @@ def render(args, input_path, level, labels, revs, bits_paths, n, totals, members
 
     height = bottom + 40
     svg.text(24, height - 12, "raw deflate, memLevel 9, one-shot, traced builds reproduce the "
-             "untraced output · github.com/nmoinvaz/codecbench", 10.5, INK_SOFT)
+             f"untraced output · {REPO_URL.removeprefix('https://')}", 10.5, INK_SOFT)
     Path(args.output).write_text(svg.finish(height))
 
     print(f"{'region':14s} {'size':>10s}  {labels[0]:>10s}  {labels[1]:>10s}")
