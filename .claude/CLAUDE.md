@@ -99,6 +99,13 @@
 - For what each symbol costs, `scripts/symbol_cost.py base.json head.json --level <l>
   -o <file>.svg` charts bits per literal, bits per match as length plus distance, and
   bits per match byte across the inputs, from the same counters.
+- For what the match search itself costs and finds, `scripts/longest_match.py base.json
+  head.json -o <file>.svg` charts zlib-ng's own longest_match benchmark, a panel per data
+  type of time per position against average match length, with the time change per level
+  beneath it over its noise band. The JSONs come from `scripts/longest_match.py --measure
+  <ref>`, which builds `benchmark_zlib` at one zlib-ng revision, `pr/<n>` for a PR head,
+  and writes `.pr-bench/lm-<rev>.json`. Measure each side twice with `-o` and join the
+  passes with commas, two processes of one binary differ by up to 4% on these rows.
 
 ### Presenting Results
 
